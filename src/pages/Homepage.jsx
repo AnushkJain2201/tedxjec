@@ -36,11 +36,11 @@ const Homepage = () => {
           libero unde veniam, esse neque similique alias officia nihil maiores
           culpa ipsum minima.
         </p>
-        <Link to="/ticket">
+        {/* <Link to="/ticket"> */}
           <button className="py-3 my-4 text-xl ticket rounded-3xl hover:bg-black  border-red-600 hover: border-2 shadow-red-600 shadow-2xl px-12 bg-red-600">
-            Get Your Ticket
+            Tickets Coming Soon!!!
           </button>
-        </Link>
+        {/* </Link> */}
         <div
           data-aos-anchor-placement="top-center"
           data-aos="fade-up"
@@ -48,7 +48,7 @@ const Homepage = () => {
         >
           <img
             className="rounded-2xl w-[1800px]"
-            src="./public/tedpage.png"
+            src="./tedpage.png"
             alt=""
           />
         </div>
